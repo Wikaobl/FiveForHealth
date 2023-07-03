@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  display: block;
+}
+body {
+  background: linear-gradient(#ccf6ff, #ffffff);
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.background {
+  z-index: 1;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+.cloud,
+.frog {
+  width: 100px;
+  position: absolute;
+  z-index: 2;
+}
+img.logo {
+  /* position: fixed; */
+  width: 70vw;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.firstcloud {
+  top: 10vh;
+  left: 0;
+  transform: translateX(-30vw);
+  animation: movetoright 10s linear infinite;
+}
+.secondcloud {
+  top: 30vh;
+  left: 100%;
+  animation: movetoleft 10s linear infinite;
+}
+.thirdcloud {
+  bottom: 38vh;
+  left: 0;
+  transform: translateX(-30vw);
+  animation: movetoright 10s linear infinite;
+  animation-delay: 3s;
+}
+@keyframes movetoright {
+  0% {
+    transform: translateX(-30vw);
+  }
+
+  100% {
+    transform: translateX(100vw);
+  }
+}
+
+@keyframes movetoleft {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-130vw);
+  }
+}
+
+.frog {
+  bottom: 5vh;
+  left: 0;
+}
+
+.grass {
+  width: 100vw;
+  display: block;
+  position: absolute;
+  margin-top: 20px;
+  bottom: 0;
+}
+
+.habits_list {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  top: 3vh;
+  z-index: 10;
+  padding-bottom: 50px;
+}
+
+.habit-and-icon {
+  margin: 0 auto;
+  display: flex;
+}
+
+.habit-container {
+  flex: 4;
+}
+
+.habit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12vw;
+  text-align: center;
+  width: 70vw;
+  height: 13vh;
+  background-color: #e9ffae;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  z-index: 100;
+  margin: 20px;
+  margin-left: 0;
+  padding: 0 15px;
+}
+
+.icon-container {
+  flex: 1;
+  align-self: center;
+  margin: 0 auto;
+}
+
+.icon {
+  font-size: 30px;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 50%;
+}
+
+i.check {
+  background-color: #93c808;
+}
+
+i.xmark {
+  display: none;
+  padding: 12px;
+  background-color: #5e8200;
+}
