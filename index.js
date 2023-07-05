@@ -17,5 +17,3 @@ for (let i = 0; i < cancelButtons.length; i++) {
     habitTexts[i].style.textDecoration = "none";
   });
 }
-
-console.log(getDate());
