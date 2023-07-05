@@ -15,8 +15,6 @@ body {
   z-index: 1;
   position: relative;
   overflow: hidden;
-  width: 100%;
-  height: 100%;
 }
 .cloud,
 .frog {
@@ -26,7 +24,7 @@ body {
 }
 img.logo {
   /* position: fixed; */
-  width: 70vw;
+  width: 80vw;
   margin: 0 auto;
   margin-top: 10px;
 }
@@ -91,6 +89,7 @@ img.logo {
   top: 3vh;
   z-index: 10;
   padding-bottom: 50px;
+  flex-direction: column;
 }
 
 .habit-and-icon {
@@ -109,7 +108,7 @@ img.logo {
   border-radius: 12vw;
   text-align: center;
   width: 70vw;
-  height: 13vh;
+  height: 12vh;
   background-color: #e9ffae;
   font-family: "Poppins", sans-serif;
   font-size: 20px;
@@ -140,4 +139,83 @@ i.xmark {
   display: none;
   padding: 12px;
   background-color: #5e8200;
+}
+
+@media (orientation: landscape) {
+  img.logo {
+    /* position: fixed; */
+    width: 50vw;
+  }
+  .habit {
+    width: 60vw;
+    padding: 10px;
+  }
+}
+@media (orientation: landscape) and (min-width: 730px) and (max-width: 9000px) {
+  img.logo {
+    /* position: fixed; */
+    width: 50vw;
+  }
+  .habit {
+    width: 60vw;
+    height: 17vh;
+    font-size: 25px;
+  }
+  .cloud {
+    width: 125px;
+  }
+}
+@media (orientation: portrait) and (min-width: 730px) and (max-width: 9000px) {
+  img.logo {
+    /* position: fixed; */
+    width: 60vw;
+  }
+  .habit {
+    width: 60vw;
+    height: 13vh;
+    font-size: 30px;
+  }
+  .cloud {
+    width: 125px;
+  }
+  .icon {
+    font-size: 50px;
+  }
+}
+@media (orientation: landscape) and (min-width: 1020px) and (max-width: 9000px) {
+  .habit {
+    width: 60vw;
+    height: 15vh;
+    font-size: 30px;
+  }
+  .cloud {
+    width: 150px;
+  }
+  .icon {
+    font-size: 40px;
+  }
+}
+@media (min-width: 1250px) and (max-width: 9000px) {
+  img.logo {
+    width: 40vw;
+  }
+
+  .firstcloud {
+    top: 7vh;
+  }
+  .secondcloud {
+    top: 26vh;
+  }
+  .habit {
+    width: 40vw;
+    height: 10vh;
+    font-size: 35px;
+  }
+  .cloud,
+  .frog {
+    width: 170px;
+  }
+  .icon {
+    font-size: 45px;
+  }
 }
