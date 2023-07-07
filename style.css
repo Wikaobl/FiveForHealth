@@ -214,7 +214,11 @@ i.xmark {
   }
   .cloud,
   .frog {
-    width: 170px;
+    width: 180px;
+  }
+  .frog {
+    bottom: 7vh;
+    left: 6vw;
   }
   .icon {
     font-size: 45px;
