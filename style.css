@@ -109,14 +109,14 @@ img.logo {
   border-radius: 12vw;
   text-align: center;
   width: 70vw;
-  height: 12vh;
+  height: 13vh;
   background-color: #e9ffae;
   font-family: "Poppins", sans-serif;
   font-size: 20px;
   z-index: 100;
   margin: 20px;
   margin-left: 0;
-  padding: 0 15px;
+  padding: 10px 15px;
 }
 
 .icon-container {
