@@ -1,0 +1,85 @@
+@media (orientation: landscape) {
+  .background {
+    height: 120vh;
+  }
+  img.logo {
+    margin: 10px 0 0 0;
+    width: 50vw;
+  }
+  .habit {
+    width: 60vw;
+    padding: 10px;
+  }
+}
+@media (orientation: landscape) and (min-width: 730px) and (max-width: 9000px) {
+  img.logo {
+    /* position: fixed; */
+    width: 50vw;
+  }
+  .habit {
+    width: 60vw;
+    height: 17vh;
+    font-size: 25px;
+  }
+  .cloud {
+    width: 125px;
+  }
+}
+@media (orientation: portrait) and (min-width: 730px) and (max-width: 9000px) {
+  img.logo {
+    /* position: fixed; */
+    width: 60vw;
+  }
+  .habit {
+    width: 60vw;
+    height: 13vh;
+    font-size: 30px;
+  }
+  .cloud {
+    width: 125px;
+  }
+  .icon {
+    font-size: 50px;
+  }
+}
+@media (orientation: landscape) and (min-width: 1020px) and (max-width: 9000px) {
+  .habit {
+    width: 60vw;
+    height: 15vh;
+    font-size: 30px;
+  }
+  .cloud {
+    width: 150px;
+  }
+  .icon {
+    font-size: 40px;
+  }
+}
+@media (min-width: 1250px) and (max-width: 9000px) {
+  img.logo {
+    width: 30vw;
+  }
+
+  .firstcloud {
+    top: 7vh;
+  }
+  .secondcloud {
+    top: 26vh;
+  }
+  .habit {
+    width: 40vw;
+    height: 10vh;
+    font-size: 33px;
+  }
+  .cloud,
+  .frog {
+    width: 180px;
+  }
+  .frog {
+    bottom: 7vh;
+    left: 6vw;
+  }
+  .icon {
+    font-size: 45px;
+  }
+}

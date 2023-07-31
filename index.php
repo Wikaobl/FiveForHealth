@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Five for Health</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="transitions.css">
+    <link rel="stylesheet" href="mediaqueries.css">
     <script src="https://kit.fontawesome.com/e28828ba7c.js" crossorigin="anonymous"></script>
 </head>
 
