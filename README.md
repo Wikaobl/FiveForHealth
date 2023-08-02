@@ -12,7 +12,7 @@ A website, that helps you create a better lifestyle by giving you _five healthy 
 ## Getting started
 
 ```bash
-git clone https://github.com/Wikaobl/FiveForHealth
+git clone https://github.com/Wikaobl/FiveForHealth.git
 ```
 
 Next, install dependencies
