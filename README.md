@@ -6,3 +6,30 @@
 </div>
 
 ## Description
+
+A website, that helps you create a better lifestyle by giving you _five healthy habits_, which change depending on the day of the week. There are clying clouds in the background. The programming languages used are **PHP, CSS, JS, HTML** In addition, the databases created by me are used.
+
+## Getting started
+
+```bash
+git clone https://github.com/Wikaobl/FiveForHealth
+```
+
+Next, install dependencies
+
+```bash
+cd FiveForHealth
+npm install
+```
+
+Run the project
+
+```bash
+npm run
+```
+
+After successfully starting the project, open your web browser and go to the specified URL http://localhost:3000
+
+## How to use
+
+### If you did one of today’s habit, click on the check mark beside it, it will automatically turn into strikethrough text. _Congrats!_
