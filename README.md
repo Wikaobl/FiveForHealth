@@ -34,4 +34,5 @@ After successfully starting the project, open your web browser and go to the spe
 
 ## How to use
 
-### If you did one of today’s habit, click on the check mark beside it, it will automatically turn into strikethrough text. _Congrats!_
+### If you did one of today’s habit, click on the check mark beside it, it will automatically turn into strikethrough text. _Congrats!_ 🐸
+
