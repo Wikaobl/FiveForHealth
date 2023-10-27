@@ -7,7 +7,14 @@
 
 ## Description
 
-A website, that helps you create a better lifestyle by giving you _five healthy habits_, which change depending on the day of the week. There are clying clouds in the background. The programming languages used are **PHP, CSS, JS, HTML** In addition, the databases created by me are used.
+A website, that helps you create a better lifestyle by giving you _five healthy habits_, which change depending on the day of the week. There are clying clouds in the background. 
+Technologies used in the project:
+- **HTML**: Website structure.
+- **CSS**: Styling the page and animations.
+- **JavaScript**: User interaction handling and dynamic habit generation.
+- **PHP**: Communicating with the database to fetch habits for display on the website.
+- **MySQL**: Database storing information about habits.
+
 
 ## Getting started
 
